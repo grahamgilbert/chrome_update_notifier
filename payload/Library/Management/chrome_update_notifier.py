@@ -170,6 +170,7 @@ def main():
 
     if running is True or TESTING is True:
         print 'We are running...'
+        run_yo()
         time.sleep(sleep_seconds)
         set_last_version_notified(get_chrome_version())
 
